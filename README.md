@@ -57,9 +57,9 @@ Located in `Sentimental Analysis of Comment Review/`, this module performs a tex
 - **Text Analysis**: Fine-grained aspect-based sentiment analysis across 33 evaluation aspects to quantify the Politeness Principle.
 ---
 
-## 4. Experiment result
 
-### Dataset Statistics
+
+## 4. Dataset Statistics
 The following table shows the comparative statistics between official ICLR records and our processed dataset. Our data exhibits a high degree of consistency with official records (within 0.7%–1.4% discrepancy).
 
 | Category | Metric | 2021 | 2022 | 2023 | 2024 | 2025 |
@@ -73,6 +73,8 @@ The following table shows the comparative statistics between official ICLR recor
 | | Accept rate | 28.9% | 32.32% | 31.88% | 31.18% | 32.13% |
 
 ---
+
+## 5. Experiment result
 
 ### Acceptance Prediction Benchmarking
 We evaluated various modeling paradigms, including traditional ML, Deep Learning, and LLMs. The results confirm that **numerical scores serve as a precise proxy** for decisions, while **textual reviews contain substantial noise**.
