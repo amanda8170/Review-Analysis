@@ -31,6 +31,7 @@ conda activate polite_peer_review
 pip install pandas numpy scipy scikit-learn torch transformers
 pip install openreview-py  # For scraping from OpenReview API
 
+```bash
 ---
 
 ## 3. Project Structure
