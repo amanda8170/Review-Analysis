@@ -9,7 +9,7 @@ from http import HTTPStatus
 from tqdm import tqdm
 
 # --- 1. 配置区域 ---
-API_KEY = os.getenv("DASHSCOPE_API_KEY", "sk-aea5b38d511d4e359db4e0b881f516a0")
+API_KEY = os.getenv("DASHSCOPE_API_KEY", "xxx")
 TEST_DATA_FILE = '../../../../Datasets/formatted_dataset/ICLR.cc_2025_formatted.jsonl'
 OUTPUT_FILE = '../../../../Datasets/predict_result/llm/test/Qwen/initial review.jsonl'
 
@@ -209,7 +209,6 @@ def main():
     if not source_data:
         return
 
-    # --- 保持完全一致的随机划分 ---
     print("根据 random_seed=42 划分并提取测试集...")
     np.random.seed(42)
     indices = np.random.permutation(len(source_data))
@@ -217,10 +216,7 @@ def main():
     test_data = [source_data[i] for i in test_indices]
 
     if test_data:
-        # 修改为前 100 条
         papers_to_process = test_data[:100]
-
-        print(f"验证：第一篇论文标题为 -> {papers_to_process[0].get('paper_title', 'N/A')}")
 
         predict_and_save(papers_to_process, OUTPUT_FILE)
     else:
