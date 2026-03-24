@@ -53,7 +53,7 @@ Located in `Sentimental Analysis of Comment Review/`, this module performs a tex
 
 ## 4. Dataset Statistics
 
-The datsets can be reached through this link:https://drive.google.com/drive/folders/1a4GlwoLB118_HuHfQ_g0Uo-F_rDErMqy?usp=sharing
+The datsets can be reached through this link: https://drive.google.com/drive/folders/1a4GlwoLB118_HuHfQ_g0Uo-F_rDErMqy?usp=sharing
 The following table shows the comparative statistics between official ICLR records and our processed dataset. Our data exhibits a high degree of consistency with official records (within 0.7%–1.4% discrepancy).
 
 | Category | Metric | 2021 | 2022 | 2023 | 2024 | 2025 |
