@@ -1,12 +1,4 @@
 # Decoupling Scores and Text: The Politeness Principle in Peer Review
-
-<p align="center">
-  <b>Yingxuan Wen</b>
-  <br>
-  Harbin Institute Of Technology
-  <br>
-</p>
-
 ---
 
 ## 1. Overview
