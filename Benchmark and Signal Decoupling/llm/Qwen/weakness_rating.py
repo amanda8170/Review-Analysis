@@ -9,7 +9,7 @@ from tqdm import tqdm
 import re
 
 # --- 1. 配置区域 ---
-API_KEY = os.getenv("DASHSCOPE_API_KEY", "sk-aea5b38d511d4e359db4e0b881f516a0")
+API_KEY = os.getenv("DASHSCOPE_API_KEY", "xxx")
 
 # --- 文件路径 ---
 DATA_FILE = '../../../../Datasets/formatted_dataset/ICLR.cc_2025_formatted.jsonl'
