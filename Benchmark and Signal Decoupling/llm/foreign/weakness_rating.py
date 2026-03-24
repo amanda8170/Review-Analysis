@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 # --- 1. 配置区域 ---
 # 请在 CloseAI 平台获取 sk-开头的令牌
-API_KEY = "sk-G1p0ufbiOpPDHqpGUb4LwDkueMYgssh117Ei4wP00ke4VVYm"
+API_KEY = "xxx"
 # CloseAI 的接口地址，必须加 /v1
 BASE_URL = "https://api.closeai-asia.com/v1"
 # 你想用的模型，例如: gpt-4o, gpt-4-turbo, claude-3-5-sonnet, gemini-1.5-pro
